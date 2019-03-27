@@ -1,0 +1,79 @@
+SENG 265 -- FALL 2017
+ASSIGNMENT #3 EVALUATION
+========================
+
+  Student name:   Browell,Jesse
+  Student number: V00873161
+  Student login:  jesseabrowell
+
+-----
+(1) word_count.py and ferry_delays.py provided; 
+
+word_count.py found.
+ferry_delays.py found.
+
+-----
+(1) Part A - Print out words in bucket 
+
+(a) Tests 05-13 :  
+
+TEST A05: FAILED TEST A06: FAILED TEST A07: FAILED TEST A08: FAILED TEST A09: FAILED
+
+TEST A10: FAILED TEST A11: FAILED TEST A12: FAILED TEST A13: FAILED 
+
+(b) Tests 05-13 : with --sort, --print-words 
+
+TEST B05: FAILED TEST B06: FAILED TEST B07: FAILED TEST B08: FAILED TEST B09: FAILED 
+
+TEST B10: FAILED TEST B11: FAILED TEST B12: FAILED TEST B13: FAILED 
+
+
+(3) Part B - BC Ferries 
+
+(a) Tests 01-06 : Provided input file tests
+
+TEST C01: FAILED TEST C02: FAILED TEST C03: FAILED
+
+TEST C04: FAILED TEST C05: FAILED TEST C06: FAILED
+
+(b) Tests 01-06:
+
+TEST D01: FAILED TEST D02: FAILED TEST D03: FAILED
+
+TEST D04: FAILED TEST D05: FAILED TEST D06: FAILED
+
+(c) Tests 01-06:
+
+TEST E01: FAILED TEST E02: FAILED TEST E03: FAILED
+
+TEST E04: FAILED TEST E05: FAILED TEST E06: FAILED
+
+(4) Parameter tests 
+
+OK
+-----
+(7) Additional test notes 
+
+Word Counts
+ - Incorrect counts for all tests
+ 
+Ferry Delays
+ - Error after entering user input
+ - Error TypeError: '_io.TextIOWrapper' object is not callable
+ 
+-----
+
+-----
+(8) Code inspection
+
+word_count.py
+ - Code structure and organization needs work
+ - suggest using argparse for dealing with command line arguments
+ - Suggest using a better data structure for storing frequency info; eg a dictionary with len as the key and count and a list of words as the value
+
+ferry_delays.py
+ - Code structure and organization needs work
+ - Files names are hardcoded rather than being provided via command line arguments
+
+GRADE:
+D
